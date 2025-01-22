@@ -1,0 +1,15 @@
+{
+  "name": "3.3-postman",
+  "version": "1.0.0",
+  "description": "This project use all the HTTP methods. All of them are to be tested with Postman Application",
+  "license": "ISC",
+  "author": "Oluwaseun Osunsola",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
