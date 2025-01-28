@@ -1,0 +1,128 @@
+/* General Body Styling */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+/* Blog Submission Form */
+.post-blog {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.blog-form textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.blog-form .submit-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.blog-form .submit-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Blog Cards Section */
+.blog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+/* Blog Card Styling */
+.blog-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.blog-content p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    word-wrap: break-word;
+    text-align: justify;
+    margin: 0 0 15px 0;
+}
+
+/* Delete Button */
+.blog-actions .delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.blog-actions .delete-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}

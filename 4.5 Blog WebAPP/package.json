@@ -1,0 +1,18 @@
+{
+  "name": "4.5-blog-webapp",
+  "version": "1.0.0",
+  "description": "This is a blog web application built on EJS and NodeJS",
+  "license": "ISC",
+  "author": "Oluwaseun Osunsola",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {}
+}
